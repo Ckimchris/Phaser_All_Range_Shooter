@@ -14,9 +14,9 @@ var DRAG = 400;
 var MAXSPEED = 400;
 
 function preload() {
-        game.load.image('starfield', 'assets/starfield.png');
-        game.load.image('ship', 'assets/player.png');
-        game.load.image('bullet', 'assets/bullet.png');
+        game.load.image('starfield', 'starfield.png');
+        game.load.image('ship', 'player.png');
+        game.load.image('bullet', 'bullet.png');
    }
 
 function create() {
